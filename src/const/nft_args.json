@@ -1,0 +1,25 @@
+{
+  "name": "EnsoFi Boosting Pass",
+  "symbol": "ENSO",
+  "uri": "https://blush-deep-leech-408.mypinata.cloud/ipfs/QmXnrxvjnUmBe5EQ1QUG9jaFupLwhQkY3NxtaChhLcnEH6",
+  "creators": [
+    {
+      "address": "CF5apKZLnXdyf5ydd4n3cwzdfMDMf1DarLsFWc9z5VNA",
+      "verified": true,
+      "share": 0
+    },
+    {
+      "address": "E1csFZAfuB4fbF2iC3X4zjSknB7vc8N2Ce6D8qvRRhJC",
+      "verified": false,
+      "share": 100
+    }
+  ],
+  "editionNonce": 253,
+  "tokenProgramVersion": 0,
+  "tokenStandard": 0,
+  "uses": null,
+  "collection": null,
+  "primarySaleHappened": false,
+  "sellerFeeBasisPoints": 400,
+  "isMutable": false
+}
