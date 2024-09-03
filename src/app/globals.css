@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-roc: 'Roc Grotesk Wide Medium';
+  --border-size: 2px;
+  --dash-size: 1em;
+}
+
+@font-face {
+  font-family: 'Roc Grotesk Wide Medium';
+  src: url('../../public/fonts/Fontspring-DEMO-rocgroteskwide-medium.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100dvh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  color: #ffffff;
+  background-color: #0e0e12;
+}
+
+.center-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-vertical-root {
+  display: flex;
+  align-items: center;
+}
+
+.space-between-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eclipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* default 1 line */
+  -webkit-box-orient: vertical;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  display: flex;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #111827;
+  border-radius: 4px;
+}
+
+:root {
+  --border-size: 2px;
+  --box-width: 36em;
+  --box-height: 8em;
+  --dash-size: 1em;
+}
+
+.custom-dashed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='%23333' stroke-width='4' stroke-dasharray='16' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+.webkit-box {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #e06ae6,
+    #7595ff
+  ); /* Adjust the colors and direction as needed */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
